@@ -1,0 +1,231 @@
+2022-08-18 10:39:19.665  INFO 9252 --- [restartedMain] c.s.s.EcommerceSpringApplication         : Starting EcommerceSpringApplication using Java 1.8.0_202 on DESKTOP-C694QP0 with PID 9252 (D:\____Données professionnelles - Travail\Epockets_PFE\Epockets_PFE\backend\EcommerceSpring\target\classes started by abder in D:\____Données professionnelles - Travail\Epockets_PFE\Epockets_PFE\backend\EcommerceSpring)
+2022-08-18 10:39:19.677  INFO 9252 --- [restartedMain] c.s.s.EcommerceSpringApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-08-18 10:39:19.838  INFO 9252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-18 10:39:19.842  INFO 9252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-18 10:39:21.453  INFO 9252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-18 10:39:21.621  INFO 9252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 148 ms. Found 2 JPA repository interfaces.
+2022-08-18 10:39:23.967  INFO 9252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2022-08-18 10:39:23.996  INFO 9252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-18 10:39:23.997  INFO 9252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-18 10:39:24.219  INFO 9252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-18 10:39:24.220  INFO 9252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4376 ms
+2022-08-18 10:39:25.211  INFO 9252 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-18 10:39:25.398  INFO 9252 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-18 10:39:25.915  INFO 9252 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-18 10:39:26.100  INFO 9252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-18 10:39:26.449  INFO 9252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-18 10:39:26.473  INFO 9252 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-08-18 10:39:28.080 DEBUG 9252 --- [restartedMain] org.hibernate.SQL                        : alter table user_roles add constraint FKj9553ass9uctjrmh0gkqsmv0d foreign key (roles_id) references role (id)
+2022-08-18 10:39:28.109 DEBUG 9252 --- [restartedMain] org.hibernate.SQL                        : alter table user_roles add constraint FK55itppkw3i07do3h7qoclqd4k foreign key (user_id) references user (id)
+2022-08-18 10:39:28.138  INFO 9252 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-18 10:39:28.153  INFO 9252 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-18 10:39:28.460  WARN 9252 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-18 10:39:31.944  INFO 9252 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6467eca0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72863f6c, org.springframework.security.web.context.SecurityContextPersistenceFilter@2c3f9f3, org.springframework.security.web.header.HeaderWriterFilter@6654a72, org.springframework.security.web.authentication.logout.LogoutFilter@2641edb, com.sid.secservice.filters.JWTAuthorizationFilter@34009590, com.sid.secservice.filters.JWTAuthenticationFilter@1aec226d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f82c747, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e963a4c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@41b5cf7c, org.springframework.security.web.session.SessionManagementFilter@5a78a37, org.springframework.security.web.access.ExceptionTranslationFilter@2844dd85, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77462a5c]
+2022-08-18 10:39:34.566  INFO 9252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-18 10:39:34.655  INFO 9252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2022-08-18 10:39:34.670  INFO 9252 --- [restartedMain] c.s.s.EcommerceSpringApplication         : Started EcommerceSpringApplication in 15.839 seconds (JVM running for 17.052)
+2022-08-18 10:39:47.093  INFO 9252 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-18 10:39:47.097  INFO 9252 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-18 10:39:47.108  INFO 9252 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-18 10:39:51.634  INFO 12880 --- [restartedMain] c.s.s.EcommerceSpringApplication         : Starting EcommerceSpringApplication using Java 1.8.0_202 on DESKTOP-C694QP0 with PID 12880 (D:\____Données professionnelles - Travail\Epockets_PFE\Epockets_PFE\backend\EcommerceSpring\target\classes started by abder in D:\____Données professionnelles - Travail\Epockets_PFE\Epockets_PFE\backend\EcommerceSpring)
+2022-08-18 10:39:51.636  INFO 12880 --- [restartedMain] c.s.s.EcommerceSpringApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-08-18 10:39:51.736  INFO 12880 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-18 10:39:51.736  INFO 12880 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-18 10:39:52.698  INFO 12880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-18 10:39:52.782  INFO 12880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2022-08-18 10:39:54.331  INFO 12880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2022-08-18 10:39:54.354  INFO 12880 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-18 10:39:54.355  INFO 12880 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-18 10:39:54.525  INFO 12880 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-18 10:39:54.525  INFO 12880 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2787 ms
+2022-08-18 10:39:55.080  INFO 12880 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-18 10:39:55.149  INFO 12880 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-18 10:39:55.393  INFO 12880 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-18 10:39:55.501  INFO 12880 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-18 10:39:55.702  INFO 12880 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-18 10:39:55.719  INFO 12880 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-08-18 10:39:56.615 DEBUG 12880 --- [restartedMain] org.hibernate.SQL                        : alter table user_roles add constraint FKj9553ass9uctjrmh0gkqsmv0d foreign key (roles_id) references role (id)
+2022-08-18 10:39:56.643 DEBUG 12880 --- [restartedMain] org.hibernate.SQL                        : alter table user_roles add constraint FK55itppkw3i07do3h7qoclqd4k foreign key (user_id) references user (id)
+2022-08-18 10:39:56.676  INFO 12880 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-18 10:39:56.688  INFO 12880 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-18 10:39:56.812  WARN 12880 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-18 10:39:58.385  INFO 12880 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@42578860, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4719632b, org.springframework.security.web.context.SecurityContextPersistenceFilter@24d163ba, org.springframework.security.web.header.HeaderWriterFilter@cc08ac4, org.springframework.security.web.authentication.logout.LogoutFilter@38896eed, com.sid.secservice.filters.JWTAuthorizationFilter@1c1a7c2a, com.sid.secservice.filters.JWTAuthenticationFilter@1e9274e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@76546045, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5df9237b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6078fbd2, org.springframework.security.web.session.SessionManagementFilter@4a0db819, org.springframework.security.web.access.ExceptionTranslationFilter@4efc8b2d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ddf3a8f]
+2022-08-18 10:39:59.626  INFO 12880 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-18 10:39:59.704  INFO 12880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2022-08-18 10:39:59.724  INFO 12880 --- [restartedMain] c.s.s.EcommerceSpringApplication         : Started EcommerceSpringApplication in 8.757 seconds (JVM running for 9.548)
+2022-08-18 10:40:21.976  INFO 12880 --- [http-nio-8088-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-18 10:40:36.616 DEBUG 12880 --- [http-nio-8088-exec-3] org.hibernate.SQL                        : select user0_.id as id1_1_, user0_.actived as actived2_1_, user0_.password as password3_1_, user0_.username as username4_1_ from user user0_ where user0_.username=?
+2022-08-18 10:40:36.631 TRACE 12880 --- [http-nio-8088-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [user2]
+2022-08-18 10:40:36.703 DEBUG 12880 --- [http-nio-8088-exec-3] org.hibernate.SQL                        : select roles0_.user_id as user_id1_2_0_, roles0_.roles_id as roles_id2_2_0_, role1_.id as id1_0_1_, role1_.role_name as role_nam2_0_1_ from user_roles roles0_ inner join role role1_ on roles0_.roles_id=role1_.id where roles0_.user_id=?
+2022-08-18 10:40:36.704 TRACE 12880 --- [http-nio-8088-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2022-08-18 10:47:52.998 DEBUG 12880 --- [http-nio-8088-exec-10] org.hibernate.SQL                        : select user0_.id as id1_1_, user0_.actived as actived2_1_, user0_.password as password3_1_, user0_.username as username4_1_ from user user0_ where user0_.username=?
+2022-08-18 10:47:52.998 TRACE 12880 --- [http-nio-8088-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [user2]
+2022-08-18 10:47:53.000 DEBUG 12880 --- [http-nio-8088-exec-10] org.hibernate.SQL                        : select roles0_.user_id as user_id1_2_0_, roles0_.roles_id as roles_id2_2_0_, role1_.id as id1_0_1_, role1_.role_name as role_nam2_0_1_ from user_roles roles0_ inner join role role1_ on roles0_.roles_id=role1_.id where roles0_.user_id=?
+2022-08-18 10:47:53.000 TRACE 12880 --- [http-nio-8088-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2022-08-18 10:47:55.458 DEBUG 12880 --- [http-nio-8088-exec-1] org.hibernate.SQL                        : select user0_.id as id1_1_, user0_.actived as actived2_1_, user0_.password as password3_1_, user0_.username as username4_1_ from user user0_ where user0_.username=?
+2022-08-18 10:47:55.458 TRACE 12880 --- [http-nio-8088-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [user2]
+2022-08-18 10:47:55.461 DEBUG 12880 --- [http-nio-8088-exec-1] org.hibernate.SQL                        : select roles0_.user_id as user_id1_2_0_, roles0_.roles_id as roles_id2_2_0_, role1_.id as id1_0_1_, role1_.role_name as role_nam2_0_1_ from user_roles roles0_ inner join role role1_ on roles0_.roles_id=role1_.id where roles0_.user_id=?
+2022-08-18 10:47:55.462 TRACE 12880 --- [http-nio-8088-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2022-08-18 10:48:00.063 DEBUG 12880 --- [http-nio-8088-exec-2] org.hibernate.SQL                        : select user0_.id as id1_1_, user0_.actived as actived2_1_, user0_.password as password3_1_, user0_.username as username4_1_ from user user0_ where user0_.username=?
+2022-08-18 10:48:00.063 TRACE 12880 --- [http-nio-8088-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [user2]
+2022-08-18 10:48:00.064 DEBUG 12880 --- [http-nio-8088-exec-2] org.hibernate.SQL                        : select roles0_.user_id as user_id1_2_0_, roles0_.roles_id as roles_id2_2_0_, role1_.id as id1_0_1_, role1_.role_name as role_nam2_0_1_ from user_roles roles0_ inner join role role1_ on roles0_.roles_id=role1_.id where roles0_.user_id=?
+2022-08-18 10:48:00.065 TRACE 12880 --- [http-nio-8088-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2022-08-18 10:55:26.286 DEBUG 12880 --- [http-nio-8088-exec-5] org.hibernate.SQL                        : select user0_.id as id1_1_, user0_.actived as actived2_1_, user0_.password as password3_1_, user0_.username as username4_1_ from user user0_ where user0_.username=?
+2022-08-18 10:55:26.286 TRACE 12880 --- [http-nio-8088-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [user1]
+2022-08-18 10:55:26.288 DEBUG 12880 --- [http-nio-8088-exec-5] org.hibernate.SQL                        : select roles0_.user_id as user_id1_2_0_, roles0_.roles_id as roles_id2_2_0_, role1_.id as id1_0_1_, role1_.role_name as role_nam2_0_1_ from user_roles roles0_ inner join role role1_ on roles0_.roles_id=role1_.id where roles0_.user_id=?
+2022-08-18 10:55:26.289 TRACE 12880 --- [http-nio-8088-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [1]
+2022-08-18 10:55:34.163 DEBUG 12880 --- [http-nio-8088-exec-6] org.hibernate.SQL                        : select user0_.id as id1_1_, user0_.actived as actived2_1_, user0_.password as password3_1_, user0_.username as username4_1_ from user user0_ where user0_.username=?
+2022-08-18 10:55:34.163 TRACE 12880 --- [http-nio-8088-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [userdd1]
+2022-08-18 10:55:34.179 ERROR 12880 --- [http-nio-8088-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.lang.RuntimeException: org.springframework.security.authentication.InternalAuthenticationServiceException
+	at com.sid.secservice.filters.JWTAuthenticationFilter.attemptAuthentication(JWTAuthenticationFilter.java:47) ~[classes/:na]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at com.sid.secservice.filters.JWTAuthorizationFilter.doFilterInternal(JWTAuthorizationFilter.java:36) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) [tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) [tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) [tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) [tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_202]
+Caused by: org.springframework.security.authentication.InternalAuthenticationServiceException: null
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:108) ~[spring-security-core-5.7.2.jar:5.7.2]
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:133) ~[spring-security-core-5.7.2.jar:5.7.2]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182) ~[spring-security-core-5.7.2.jar:5.7.2]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201) ~[spring-security-core-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:514) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at com.sid.secservice.filters.JWTAuthenticationFilter.attemptAuthentication(JWTAuthenticationFilter.java:40) ~[classes/:na]
+	... 56 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.sid.secservice.security.SecurityConfig$1.loadUserByUsername(SecurityConfig.java:42) ~[classes/:na]
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:93) ~[spring-security-core-5.7.2.jar:5.7.2]
+	... 61 common frames omitted
+
+2022-08-18 10:55:41.329 DEBUG 12880 --- [http-nio-8088-exec-7] org.hibernate.SQL                        : select user0_.id as id1_1_, user0_.actived as actived2_1_, user0_.password as password3_1_, user0_.username as username4_1_ from user user0_ where user0_.username=?
+2022-08-18 10:55:41.330 TRACE 12880 --- [http-nio-8088-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [user1]
+2022-08-18 10:55:41.332 DEBUG 12880 --- [http-nio-8088-exec-7] org.hibernate.SQL                        : select roles0_.user_id as user_id1_2_0_, roles0_.roles_id as roles_id2_2_0_, role1_.id as id1_0_1_, role1_.role_name as role_nam2_0_1_ from user_roles roles0_ inner join role role1_ on roles0_.roles_id=role1_.id where roles0_.user_id=?
+2022-08-18 10:55:41.332 TRACE 12880 --- [http-nio-8088-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [1]
+2022-08-18 10:57:19.115 DEBUG 12880 --- [http-nio-8088-exec-10] org.hibernate.SQL                        : select user0_.id as id1_1_, user0_.actived as actived2_1_, user0_.password as password3_1_, user0_.username as username4_1_ from user user0_ where user0_.username=?
+2022-08-18 10:57:19.115 TRACE 12880 --- [http-nio-8088-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2022-08-18 10:57:19.118 DEBUG 12880 --- [http-nio-8088-exec-10] org.hibernate.SQL                        : select roles0_.user_id as user_id1_2_0_, roles0_.roles_id as roles_id2_2_0_, role1_.id as id1_0_1_, role1_.role_name as role_nam2_0_1_ from user_roles roles0_ inner join role role1_ on roles0_.roles_id=role1_.id where roles0_.user_id=?
+2022-08-18 10:57:19.118 TRACE 12880 --- [http-nio-8088-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [5]
+2022-08-18 11:02:26.553 DEBUG 12880 --- [http-nio-8088-exec-5] org.hibernate.SQL                        : select user0_.id as id1_1_, user0_.actived as actived2_1_, user0_.password as password3_1_, user0_.username as username4_1_ from user user0_ where user0_.username=?
+2022-08-18 11:02:26.554 TRACE 12880 --- [http-nio-8088-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2022-08-18 11:02:26.556 DEBUG 12880 --- [http-nio-8088-exec-5] org.hibernate.SQL                        : select roles0_.user_id as user_id1_2_0_, roles0_.roles_id as roles_id2_2_0_, role1_.id as id1_0_1_, role1_.role_name as role_nam2_0_1_ from user_roles roles0_ inner join role role1_ on roles0_.roles_id=role1_.id where roles0_.user_id=?
+2022-08-18 11:02:26.557 TRACE 12880 --- [http-nio-8088-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [5]
+2022-08-18 11:02:55.233 DEBUG 12880 --- [http-nio-8088-exec-6] org.hibernate.SQL                        : insert into user (actived, password, username) values (?, ?, ?)
+2022-08-18 11:02:55.235 TRACE 12880 --- [http-nio-8088-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BOOLEAN] - [true]
+2022-08-18 11:02:55.235 TRACE 12880 --- [http-nio-8088-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [$2a$10$BUlfKlic1Ia/eBBXfa7EQORXgHB/G7TCDuWKuilMuvd8TzqvupiQG]
+2022-08-18 11:02:55.236 TRACE 12880 --- [http-nio-8088-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [user8]
+2022-08-18 11:06:06.089 DEBUG 12880 --- [http-nio-8088-exec-2] org.hibernate.SQL                        : select user0_.id as id1_1_, user0_.actived as actived2_1_, user0_.password as password3_1_, user0_.username as username4_1_ from user user0_ where user0_.username=?
+2022-08-18 11:06:06.090 TRACE 12880 --- [http-nio-8088-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2022-08-18 11:06:06.091 DEBUG 12880 --- [http-nio-8088-exec-2] org.hibernate.SQL                        : select roles0_.user_id as user_id1_2_0_, roles0_.roles_id as roles_id2_2_0_, role1_.id as id1_0_1_, role1_.role_name as role_nam2_0_1_ from user_roles roles0_ inner join role role1_ on roles0_.roles_id=role1_.id where roles0_.user_id=?
+2022-08-18 11:06:06.091 TRACE 12880 --- [http-nio-8088-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [5]
+2022-08-18 11:06:22.435 DEBUG 12880 --- [http-nio-8088-exec-3] org.hibernate.SQL                        : select user0_.id as id1_1_, user0_.actived as actived2_1_, user0_.password as password3_1_, user0_.username as username4_1_ from user user0_ where user0_.username=?
+2022-08-18 11:06:22.436 TRACE 12880 --- [http-nio-8088-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [user8]
+2022-08-18 11:06:22.438 DEBUG 12880 --- [http-nio-8088-exec-3] org.hibernate.SQL                        : select roles0_.user_id as user_id1_2_0_, roles0_.roles_id as roles_id2_2_0_, role1_.id as id1_0_1_, role1_.role_name as role_nam2_0_1_ from user_roles roles0_ inner join role role1_ on roles0_.roles_id=role1_.id where roles0_.user_id=?
+2022-08-18 11:06:22.438 TRACE 12880 --- [http-nio-8088-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [8]
+2022-08-18 11:06:22.445 DEBUG 12880 --- [http-nio-8088-exec-3] org.hibernate.SQL                        : select role0_.id as id1_0_, role0_.role_name as role_nam2_0_ from role role0_ where role0_.role_name=?
+2022-08-18 11:06:22.445 TRACE 12880 --- [http-nio-8088-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [ADMIN]
+2022-08-18 11:06:22.454 DEBUG 12880 --- [http-nio-8088-exec-3] org.hibernate.SQL                        : insert into user_roles (user_id, roles_id) values (?, ?)
+2022-08-18 11:06:22.455 TRACE 12880 --- [http-nio-8088-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [8]
+2022-08-18 11:06:22.455 TRACE 12880 --- [http-nio-8088-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [BIGINT] - [1]
+2022-08-18 11:08:18.771 DEBUG 12880 --- [http-nio-8088-exec-6] org.hibernate.SQL                        : select user0_.id as id1_1_, user0_.actived as actived2_1_, user0_.password as password3_1_, user0_.username as username4_1_ from user user0_ where user0_.username=?
+2022-08-18 11:08:18.772 TRACE 12880 --- [http-nio-8088-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [user8]
+2022-08-18 11:08:18.773 DEBUG 12880 --- [http-nio-8088-exec-6] org.hibernate.SQL                        : select roles0_.user_id as user_id1_2_0_, roles0_.roles_id as roles_id2_2_0_, role1_.id as id1_0_1_, role1_.role_name as role_nam2_0_1_ from user_roles roles0_ inner join role role1_ on roles0_.roles_id=role1_.id where roles0_.user_id=?
+2022-08-18 11:08:18.773 TRACE 12880 --- [http-nio-8088-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [8]
+2022-08-18 11:08:48.327  INFO 12880 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-18 11:08:48.332  INFO 12880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-18 11:08:48.344  INFO 12880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-18 11:08:53.988  INFO 9900 --- [restartedMain] c.s.s.EcommerceSpringApplication         : Starting EcommerceSpringApplication using Java 1.8.0_202 on DESKTOP-C694QP0 with PID 9900 (D:\____Données professionnelles - Travail\Epockets_PFE\Epockets_PFE\backend\EcommerceSpring\target\classes started by abder in D:\____Données professionnelles - Travail\Epockets_PFE\Epockets_PFE\backend\EcommerceSpring)
+2022-08-18 11:08:53.990  INFO 9900 --- [restartedMain] c.s.s.EcommerceSpringApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-08-18 11:08:54.079  INFO 9900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-18 11:08:54.080  INFO 9900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-18 11:08:54.952  INFO 9900 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-18 11:08:55.026  INFO 9900 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2022-08-18 11:08:56.353  INFO 9900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2022-08-18 11:08:56.369  INFO 9900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-18 11:08:56.370  INFO 9900 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-18 11:08:56.500  INFO 9900 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-18 11:08:56.501  INFO 9900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2419 ms
+2022-08-18 11:08:56.993  INFO 9900 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-18 11:08:57.063  INFO 9900 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-18 11:08:57.301  INFO 9900 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-18 11:08:57.421  INFO 9900 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-18 11:08:57.603  INFO 9900 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-18 11:08:57.621  INFO 9900 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-08-18 11:08:58.397 DEBUG 9900 --- [restartedMain] org.hibernate.SQL                        : alter table user_roles add constraint FKj9553ass9uctjrmh0gkqsmv0d foreign key (roles_id) references role (id)
+2022-08-18 11:08:58.425 DEBUG 9900 --- [restartedMain] org.hibernate.SQL                        : alter table user_roles add constraint FK55itppkw3i07do3h7qoclqd4k foreign key (user_id) references user (id)
+2022-08-18 11:08:58.452  INFO 9900 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-18 11:08:58.464  INFO 9900 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-18 11:08:58.584  WARN 9900 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-18 11:08:59.953  INFO 9900 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@20f43e7f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@514b1b6, org.springframework.security.web.context.SecurityContextPersistenceFilter@3bf77225, org.springframework.security.web.header.HeaderWriterFilter@3d3a5939, org.springframework.security.web.authentication.logout.LogoutFilter@25660c27, com.sid.secservice.filters.JWTAuthorizationFilter@5cd0544e, com.sid.secservice.filters.JWTAuthenticationFilter@224c25a5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d339196, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26cfd8d3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@234ae055, org.springframework.security.web.session.SessionManagementFilter@fced979, org.springframework.security.web.access.ExceptionTranslationFilter@5f97d6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3cb1e570]
+2022-08-18 11:09:01.100  INFO 9900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-18 11:09:01.181  INFO 9900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2022-08-18 11:09:01.196  INFO 9900 --- [restartedMain] c.s.s.EcommerceSpringApplication         : Started EcommerceSpringApplication in 7.778 seconds (JVM running for 8.506)
+2022-08-18 11:09:10.177  INFO 9900 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-18 11:09:10.538 DEBUG 9900 --- [http-nio-8088-exec-1] org.hibernate.SQL                        : select user0_.id as id1_1_, user0_.actived as actived2_1_, user0_.password as password3_1_, user0_.username as username4_1_ from user user0_ where user0_.username=?
+2022-08-18 11:09:10.560 TRACE 9900 --- [http-nio-8088-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [user8]
+2022-08-18 11:09:10.594 DEBUG 9900 --- [http-nio-8088-exec-1] org.hibernate.SQL                        : select roles0_.user_id as user_id1_2_0_, roles0_.roles_id as roles_id2_2_0_, role1_.id as id1_0_1_, role1_.role_name as role_nam2_0_1_ from user_roles roles0_ inner join role role1_ on roles0_.roles_id=role1_.id where roles0_.user_id=?
+2022-08-18 11:09:10.595 TRACE 9900 --- [http-nio-8088-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [8]
+2022-08-18 11:09:27.241 DEBUG 9900 --- [http-nio-8088-exec-3] org.hibernate.SQL                        : insert into user (actived, password, username) values (?, ?, ?)
+2022-08-18 11:09:27.242 TRACE 9900 --- [http-nio-8088-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BOOLEAN] - [true]
+2022-08-18 11:09:27.243 TRACE 9900 --- [http-nio-8088-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [$2a$10$0i5Og5XrE3eMOiZiIRi/p.yRVG74fP//rlpGsL1tGhNzDRIre3HF2]
+2022-08-18 11:09:27.243 TRACE 9900 --- [http-nio-8088-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [user9]
+2022-08-18 11:10:01.895 DEBUG 9900 --- [http-nio-8088-exec-4] org.hibernate.SQL                        : select user0_.id as id1_1_, user0_.actived as actived2_1_, user0_.password as password3_1_, user0_.username as username4_1_ from user user0_ where user0_.username=?
+2022-08-18 11:10:01.896 TRACE 9900 --- [http-nio-8088-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [user9]
+2022-08-18 11:10:01.897 DEBUG 9900 --- [http-nio-8088-exec-4] org.hibernate.SQL                        : select roles0_.user_id as user_id1_2_0_, roles0_.roles_id as roles_id2_2_0_, role1_.id as id1_0_1_, role1_.role_name as role_nam2_0_1_ from user_roles roles0_ inner join role role1_ on roles0_.roles_id=role1_.id where roles0_.user_id=?
+2022-08-18 11:10:01.898 TRACE 9900 --- [http-nio-8088-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [9]
+2022-08-18 11:10:01.904 DEBUG 9900 --- [http-nio-8088-exec-4] org.hibernate.SQL                        : select role0_.id as id1_0_, role0_.role_name as role_nam2_0_ from role role0_ where role0_.role_name=?
+2022-08-18 11:10:01.905 TRACE 9900 --- [http-nio-8088-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [USER]
+2022-08-18 11:10:01.912 DEBUG 9900 --- [http-nio-8088-exec-4] org.hibernate.SQL                        : insert into user_roles (user_id, roles_id) values (?, ?)
+2022-08-18 11:10:01.913 TRACE 9900 --- [http-nio-8088-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [9]
+2022-08-18 11:10:01.913 TRACE 9900 --- [http-nio-8088-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [BIGINT] - [2]
